@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US"><head><!-- Created by Artisteer v4.3.0.60745 -->
+    <meta charset="utf-8">
+    <title>INFORMACIÓN DE CONTACTO</title>
+
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="style.css" media="screen">
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Oswald|Droid+Sans&amp;subset=latin">
+
+
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+
+
+
+<script>jQuery(function ($) {
+    'use strict';
+    if ($.fn.themeSlider) {
+        $(".art-slidecontainerImagen8").each(function () {
+            var slideContainer = $(this), tmp;
+            var inner = $(".art-slider-inner", slideContainer);
+            inner.children().filter("script").remove();
+            var helper = null;
+            
+            if ($.support.themeTransition) {
+                helper = new BackgroundHelper();
+                helper.init("fade", "next", $(".art-slide-item", inner).first().css($.support.themeTransition.prefix + "transition-duration"));
+                inner.children().each(function () {
+                    helper.processSlide($(this));
+                });
+
+                
+            } else if (browser.ie && browser.version <= 8) {
+                var slidesInfo = {
+".art-slideImagen80": {
+    "bgimage" : "url('images/slideImagen80.jpg')",
+    "bgposition": "center top",
+    "images": "",
+    "positions": ""
+},
+".art-slideImagen81": {
+    "bgimage" : "url('images/slideImagen81.jpg')",
+    "bgposition": "center top",
+    "images": "",
+    "positions": ""
+}
+                };
+                $.each(slidesInfo, function(selector, info) {
+                    processElementMultiplyBg(slideContainer.find(selector), info);
+                });
+            }
+
+            inner.children().eq(0).addClass("active");
+            slideContainer.themeSlider({
+                pause: 2600,
+                speed: 600,
+                repeat: true,
+                animation: "fade",
+                direction: "next",
+                navigator: slideContainer.siblings(".art-slidenavigatorImagen8"),
+                helper: helper
+            });
+            
+                        
+        });
+    }
+});
+</script><style>.art-content .art-postcontent-0 .layout-item-0 { border-spacing: 20px 0px; border-collapse: separate;  }
+.art-content .art-postcontent-0 .layout-item-1 { border-top-width:1px;border-top-style:dotted;border-top-color:#293638;margin-top: 15px;margin-right: 25px;margin-bottom: 15px;margin-left: 25px;  }
+.art-content .art-postcontent-0 .layout-item-2 { padding-right: 10px;padding-left: 10px;  }
+.art-content .art-postcontent-0 .layout-item-3 { border-right-style:dotted;border-right-width:1px;border-right-color:#293638; padding-right: 10px;padding-left: 10px;  }
+.ie7 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+.ie6 .art-post .art-layout-cell {border:none !important; padding:0 !important; }
+
+.art-slidecontainerImagen8 {
+    position: relative;
+        width: 697px;
+    height: 356px;
+        }
+
+.default-responsive .art-header .art-slidecontainerImagen8,
+.responsive .art-header .art-slidecontainerImagen8
+{
+  position: absolute !important;
+}
+
+.responsive .art-pageslider .art-slidecontainerImagen8 {
+  position: absolute !important;
+}
+
+.art-slidecontainerImagen8 .art-slide-item
+{
+
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    transform: rotate(0);
+}
+
+
+
+.art-slidecontainerImagen8 .art-slide-item {
+    -webkit-transition: 600ms ease-in-out opacity;
+    -moz-transition: 600ms ease-in-out opacity;
+    -ms-transition: 600ms ease-in-out opacity;
+    -o-transition: 600ms ease-in-out opacity;
+    transition: 600ms ease-in-out opacity;
+    position: absolute !important;
+    display: none;
+	left: 0;
+	top: 0;
+	opacity: 0;
+    width:  100%;
+    height: 100%;
+}
+
+.art-slidecontainerImagen8 .active, .art-slidecontainerImagen8 .next, .art-slidecontainerImagen8 .prev {
+    display: block;
+}
+
+.art-slidecontainerImagen8 .active {
+    opacity: 1;
+}
+
+.art-slidecontainerImagen8 .next, .art-slidecontainerImagen8 .prev {
+    width: 100%;
+}
+
+.art-slidecontainerImagen8 .next.forward, .art-slidecontainerImagen8 .prev.back {
+    opacity: 1;
+}
+
+.art-slidecontainerImagen8 .active.forward {
+    opacity: 0;
+}
+
+.art-slidecontainerImagen8 .active.back {
+    opacity: 0;
+}
+
+
+.art-slideImagen80 {
+    background-image:  url('images/slideImagen80.jpg');
+        /* background-size:  auto auto; */
+        background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+/* special setup for header/pageslider */
+.responsive .art-header .art-slideImagen80 {
+    background-image:  url('images/slideImagen80.jpg');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.responsive .art-pageslider .art-slideImagen80 {
+    background-image:  url('images/slideImagen80.jpg');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-header .art-slideImagen80 {
+    background-image: url('images/slideImagen80.jpg');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-pageslider .art-slideImagen80 {
+    background-image: url('images/slideImagen80.jpg');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}.art-slideImagen81 {
+    background-image:  url('images/slideImagen81.jpg');
+        /* background-size:  auto auto; */
+        background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+/* special setup for header/pageslider */
+.responsive .art-header .art-slideImagen81 {
+    background-image:  url('images/slideImagen81.jpg');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.responsive .art-pageslider .art-slideImagen81 {
+    background-image:  url('images/slideImagen81.jpg');
+    background-size: auto auto;
+    background-position:  center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-header .art-slideImagen81 {
+    background-image: url('images/slideImagen81.jpg');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.default-responsive .art-pageslider .art-slideImagen81 {
+    background-image: url('images/slideImagen81.jpg');
+    background-size: auto auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.art-slidenavigatorImagen8 {
+  display: inline-block;
+  position: absolute;
+  direction: ltr !important;
+  top: 332px;
+  left: 93.69%;
+  z-index: 101;
+  line-height: 0 !important;
+  -webkit-background-origin: border !important;
+  -moz-background-origin: border !important;
+  background-origin: border-box !important;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+    white-space: nowrap;
+    }
+.art-slidenavigatorImagen8
+{
+background: #B1C9C7;background: -webkit-linear-gradient(top, rgba(225, 234, 234, 0.6) 0, rgba(129, 167, 165, 0.6) 100%) no-repeat;background: -moz-linear-gradient(top, rgba(225, 234, 234, 0.6) 0, rgba(129, 167, 165, 0.6) 100%) no-repeat;background: -o-linear-gradient(top, rgba(225, 234, 234, 0.6) 0, rgba(129, 167, 165, 0.6) 100%) no-repeat;background: -ms-linear-gradient(top, rgba(225, 234, 234, 0.6) 0, rgba(129, 167, 165, 0.6) 100%) no-repeat;-svg-background: linear-gradient(top, rgba(225, 234, 234, 0.6) 0, rgba(129, 167, 165, 0.6) 100%) no-repeat;background: linear-gradient(to bottom, rgba(225, 234, 234, 0.6) 0, rgba(129, 167, 165, 0.6) 100%) no-repeat;
+-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;
+
+
+padding:7px;
+
+
+
+
+
+}
+.art-slidenavigatorImagen8 > a
+{
+background: #628D8B;background: #628D8B;background: #628D8B;background: #628D8B;background: #628D8B;-svg-background: #628D8B;background: #628D8B;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+.art-slidenavigatorImagen8 > a.active
+{
+background: #6CACE0;background: #6CACE0;background: #6CACE0;background: #6CACE0;background: #6CACE0;-svg-background: #6CACE0;background: #6CACE0;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+.art-slidenavigatorImagen8 > a:hover
+{
+background: #5D7A7E;background: #5D7A7E;background: #5D7A7E;background: #5D7A7E;background: #5D7A7E;-svg-background: #5D7A7E;background: #5D7A7E;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+
+
+
+margin:0 10px 0 0;
+
+width: 10px;
+
+height: 10px;
+}
+
+</style></head>
+<body>
+<div id="art-main">
+<nav class="art-nav">
+    <ul class="art-hmenu"></li><li><a href="index.html">PLANTEL</a></li><li><a href="new-page-2-2.html">COMUNIDAD EDUCATIVA</a></li><li><a href="new-page-2-2-2.html">OFERTA EDUCATIVA</a></li><li><a href="new-page-2-2-2-2.html">REPÚBLICA ESCOLAR</a></li><li><a href="new-page-2-2-2-2-2.html">DESCARGA</a></li><li><a href="new-page-2-2-2-2-2-2.html">GALERÍA</a></li><li><a href="new-page-2-2-2-2-2-2-2.html">CONTACTO</a></li></ul> 
+  </nav>
+<header class="art-header">
+
+    <div class="art-shapes">
+        
+            </div>
+
+
+
+
+
+
+                        
+                    
+</header>
+<div class="art-sheet clearfix">
+            <div class="art-layout-wrapper">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-sidebar1"><div class="art-block clearfix">
+        <div class="art-blockheader">
+            <h3 class="t">Buscar</h3>
+        </div>
+        <div class="art-blockcontent"><div>
+  <form action="#" class="art-search" method="get" name="searchform">
+    <input type="text" value="" name="s" />
+    <input type="submit" value="Search" name="search" class="art-search-button" />
+  </form>
+</div></div>
+</div><div class="art-block clearfix">
+        <div class="art-blockheader">
+            <h3 class="t">Otros Sistemas</h3>
+         </div>
+        <div class="art-blockcontent"><p style="text-align: center;"><span style="text-shadow: rgba(23, 23, 23, 0.980469) 0px 0px 12px; color: rgb(0, 5, 68); font-family: Oswald; font-size: 25px;">SCE</span></p><p style="padding-right: 20px"><a href="http://sieg.seg.guanajuato.gob.mx" target="_self">sieg.seg.guanajuato.gob.mx</a><br></p><br clear="all"><p style="text-align: center;"><span style="text-shadow: rgba(23, 23, 23, 0.980469) 0px 0px 12px; color: rgb(0, 5, 68); font-size: 25px; font-family: Oswald;">CORREO </span></p><p style="padding-right: 20px"><a href="https://correo.seg-gto.gob.mx/" target="_self">correo.seg-gto.gob.mx/</a><br></p><br clear="all"><p style="text-align: center;"><span style="text-shadow: rgba(23, 23, 23, 0.980469) 0px 0px 12px; color: rgb(0, 5, 68); font-family: Oswald; font-size: 25px;">SEP</span></p><p style="padding-right: 20px"><a href="http://www.gob.mx/sep" target="_self">www.gob.mx/sep</a><br></p><br clear="all"><p style="text-align: center;"><span style="text-shadow: rgba(23, 23, 23, 0.980469) 0px 0px 12px; color: rgb(0, 5, 68); font-family: Oswald; font-size: 25px;">REPASE</span></p><p style="padding-right: 20px"><a href="https://repase.sep.gob.mx/" target="_self">https://repase.sep.gob.mx/</a></p><br clear="all"><p style="text-align: center;"><span style="text-shadow: rgba(23, 23, 23, 0.980469) 0px 0px 12px; color: rgb(0, 5, 68); font-family: Oswald; font-size: 25px;">CALIFICACIONES</span></p><p style="padding-right: 20px"><a href="http://calificaciones.seg.guanajuato.gob.mx" target="_self">calificaciones.seg.guanajuato.gob.mx</a></p></div>
+</div></div>
+                        <div class="art-layout-cell art-content"><article class="art-post art-article">
+                              <marquee>  <h2 class="art-postheader">INFORMACIÓN DE CONTACTO</h2></marquee>
+                                                
+                <div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout layout-item-0">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-2" style="width: 100%" >
+        <img style="float: left; margin-top: 0px; margin-right: 30px; margin-bottom: 0px; margin-left: 0px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px;" width="275" height="259" alt="" class="art-lightbox" src="images/tecnica40.png">
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+        <p>
+        </p><p style="text-align: center;"><span style="color: rgb(0, 5, 68); font-family: Arial, sans-serif; font-size: 15px; line-height: 22px; font-weight: bold;">ESCUELA SECUNDARIA TÉCNICA No 40.</span><br></p><p class="MsoNormal" style="text-align: justify;"><span style="color: rgb(0, 5, 68); font-family: Arial, sans-serif; font-size: 15px; line-height: 22px;"><span style="font-weight: bold;">Domicilio:</span> Camino a Jesús María S/N.</span><br></p><p class="MsoNormal" style="text-align: justify;"><span style="color: rgb(0, 5, 68); font-family: Arial, sans-serif; font-size: 15px; line-height: 22px;">Localidad: Los Rodríguez de Allende.</span></p><p class="MsoNormal" style="text-align: justify;"><span style="color: rgb(0, 5, 68); font-family: Arial, sans-serif; font-size: 15px; line-height: 22px;"><span style="font-weight: bold;">Directora.:</span> Maestra: María Guadalupe Balderas Múñoz.</span></p><p class="MsoNormal" style="text-align: justify;"><span style="color: rgb(0, 5, 68); font-family: Arial, sans-serif; font-size: 15px; line-height: 22px;"><span style="font-weight: bold;">Correo:</span> tecnica40@hotmail.com</span></p><p class="MsoNormal" style="text-align: justify;"><span style="color: rgb(0, 5, 68); font-family: Arial, sans-serif; font-size: 15px; line-height: 22px;"><span style="font-weight: bold;"></span><span style="color: rgb(0, 5, 68); font-family: Arial, sans-serif; font-size: 15px; line-height: 22px;"><span style="font-weight: bold;">Teléfono:</span> 415 1542290</span></p>
+    </div>
+    </div>
+</div>
+<div class="art-content-layout-br layout-item-1">
+</div><div class="art-content-layout layout-item-0">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-3" style="width: 33%" >
+        <h1 style="text-align: center;"><span style="color: rgb(224, 6, 20);"><br></span></h1><p style="widows: 1;text-align: justify;"><span style="font-family: Arial; font-size: 15px; color: #000000;"></span><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 15px;"></span></p><p><span style="font-style:italic;"></span></p>
+    </div><div class="art-layout-cell layout-item-3" style="width: 34%" >
+      <marquee>  <h1 style="text-align: center;"><span style="color: rgb(39, 51, 53); font-family: 'Droid Sans', Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 13px;"><img width="250" height="200" alt="" class="art-lightbox" src="images/13.png"></span></h1><p style="text-align: justify;"><span style="font-family: Arial; font-size: 15px; color: #000000;"></span></p></marquee>
+    </div><div class="art-layout-cell layout-item-2" style="width: 33%" >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <h1 style="text-align: center;"><span style="color: rgb(224, 6, 20);"><br></span></h1><p class="normal" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 10pt; margin-left: 0cm; font-family: 'Times New Roman'; color: rgb(0, 0, 0); widows: 1; line-height: 20px;"><span style="font-size: 15px;"><br></span></p><span style="color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: medium; widows: 1;"><br></span><p style="text-align: justify;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 15px;"><br></span></p><p style="text-align: justify;"><span style="color: rgb(0, 0, 0); font-family: Arial; font-size: 15px;"><br></span></p><p><span style="font-size: 15px;"><br></span></p>
+    </div>
+    </div>
+</div>
+</div>
+                                
+                
+
+
+</article></div>
+                    </div>
+                </div>
+            </div><footer class="art-footer">
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-0" style="width: 100%">
+        <p style="border-top-width: 1px; border-top-style: dotted; border-top-color: rgb(82, 17, 10); padding-top: 1px; text-align: right;">Derechos Reservados: EST No. 40&nbsp;<a href="http://facebook.com" target="_self" class="art-facebook-tag-icon" style="line-height: 32px;">Facebook</a>&nbsp;</p>
+    </div>
+    </div>
+</div>
+
+</footer>
+
+    </div>
+    <p class="art-page-footer">
+        <span id="art-footnote-links"><a href="http://www.artisteer.com/" target="_blank"></a> Llámanos: 415-1542290 / Camino a Jesús Maria-Los Rodriguez. </span>
+    </p>
+</div>
+
+
+</body></html>
